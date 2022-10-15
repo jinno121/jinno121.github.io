@@ -1,0 +1,50 @@
+.A4{
+    width: 297mm;
+    height: 200mm;
+    box-sizing: border-box;
+    padding: 20mm;
+}
+#nameArea{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+#contentsArea{
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+}
+#iconArea{
+    width: 50%;
+    display: inline-block;
+    height: 200px;
+}
+.like{
+    font-size: 20px;
+}
+.dislike{
+    font-size: 20px;
+}
+.hobby{
+    font-size: 20px;
+}
+.bitenn{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.nanntenn{
+    font-size: 20px;
+}
+.hitokoto{
+    margin-top: 45px;
+    font-size: 35px;
+}
+.iconimage{
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+}
+.iconimageArea{
+    text-align: center;
+}
+@page{size: auto; margin: 0mm;}
